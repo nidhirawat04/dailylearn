@@ -7,35 +7,85 @@
 </head>
 
 <body>
-    <nav id="navbar">
-        <div id="logo">Daily Learn</div>
-        <button id="menu-btn">☰</button>
-    </nav>
+    <section id="navbar-section">
+        <nav>
+            <a href="index.html">
+                <img id="logo" src="" alt="logo-img">
+            </a>
+            <button id="menu-btn">☰</button>
+        </nav>
 
-    <aside id="menu-btn">
-        <button id ="close-btn">x</button>
-        <a href="index.html">Home</a>
-        <a href="interest.html">Get started</a>
-        <a href="profile.html">Profile</a>
-    </aside>
+        <aside id="side-bar">
+            <button id ="close-btn">x</button>
+            <button class="menu-link" id="home-btn">Home</button>
+            <button class="menu-link" id="interest-btn">Get started</button>
+            <button class="menu-link" id="profile-btn">Profile</button>
+        </aside>
+    </section>
 
-    <div id= "sign-in-page">
-        <h1>Welcome to Daily Learn</h1>
-        <h3>A platform where you can gamify current affairs</h3>
-        <p>Log in to keep track of your daily streak.</p>
-        <button class="btn" id="log-in-btn">SIGN IN</button>
-        <p>dont want to log in?</p>
-        <button class="btn">SKIP AND CONTINUE</button>
-    </div>
+    <section id="hero-section">
+        <div id= "hero-page">
+            <h1 id="hero-line">The most fun way to know what is happening in the world!</h1>
+            <button class="btn" id="select-interest-btn">GET STARTED</button>
+            <button class="btn" id="start-learning-btn">I'M ALREADY LEARNING</button>
+            <img id="hero-img" src="" alt="hero image">
+        </div>
+    </section>
 
-    <div id="login-section">
-        <button id="google-btn">Continue with google</button>
-        <p>OR</p>
-        <input type="tel" placeholder="Phone number">
-        <button id="phone-btn">Continue with phone number</button>
-    </div>
+    <section id="interest-section">
+        <p>What makes your brain go 👀?<p>
+        <p>Pick your interests and we'll bring the news to you.<p>
+        <div id="interest-selection">
+            <button class="interests">World</button>
+            <button class="interests">India</button>
+            <button class="interests">Sports</button>
+            <button class="interests">Business</button>
+            <button class="interests">Technology</button>
+            <button class="interests">Entertainmet</button>
+        </div>
 
-    
+        <button class="btn">Continue</button>
+    </section>
+
+    <section id="news-section">
+        <div id="news">
+            <p id="news-type">TECHNOLOGY</p>
+            <p id="news-headline">APPLE PRODUCTS PRICE SKYROCKETS</p>
+            <p id="news-para">Apple shares rose 3.6% on Thursday after the company unveiled its latest iPhones, including its first foldable, the $1,999 iPhone Duo. Investors reacted positively to the new product lineup despite concerns about higher production costs.</p>
+        </div>
+
+        <button class="btn">← BACK</button>
+        <button class="btn">NEXT →</button>
+    </section>
+
+    <section id="quiz-section">
+        <div id="quiz">
+            <p id="quiz-header">QUIZ</p>
+            <p id="quiz-question">How much Apple share increased by?</p>
+
+            <div id="question-options">
+                <button class="option">2.6%</button>
+                <button class="option">3.6%</button>
+                <button class="option">4.6%</button>
+                <button class="option">5.6%</button>
+            </div>
+        </div>
+
+        <button class="btn">← BACK</button>
+        <button class="btn">NEXT →</button>
+    </section>
+
+    <section id="profile-section">
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Enter your Username"> 
+        
+        <div id="selected-interests">
+            <button class="interest">Sports</button>
+            <button class="interest">India</button>
+        </div>
+
+        <button class="btn">CLOSE PROFILE</button>
+    </section>
 
 </body> 
 
